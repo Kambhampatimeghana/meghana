@@ -1,0 +1,233 @@
+body{
+    font-family: Arial;
+}
+.header{
+    background-color:rgb(19, 25, 33) ;
+    color: white;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+.left-header{
+    height: 30px;
+            
+    margin-left: 20px;
+    margin-right: 0px;
+    flex: 1;
+}
+.pro-link{
+    height: 30px;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    padding-right: 7px;
+    padding-left: 7px;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.pro-link:active{
+    transition: 3s;
+    border: 1px solid rgb(231, 231, 231);
+    
+}
+.pro-link:hover{
+    border: 1px solid rgb(231, 231, 231);
+}
+.middle-header{
+    display: flex;
+    flex-direction: row;
+    height: 38px;
+    justify-content: center;
+    flex: 2;
+}
+.middle-search{
+    border: none;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    padding-left: 10px;
+    width: 100%;
+    
+}
+.search-button{
+    background-color: rgb(254, 189, 105);
+    border: none;
+    height: 38px;
+    width: 40px;
+    border: none;
+    
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    
+}
+.button-image{
+    height: 15px;
+}
+.right-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 35px;
+}
+.retu,.retu-o{
+    color: white;
+    text-decoration: none;
+}
+.retu-o{
+    font-size: 15px;
+    font-weight: bold;
+}
+.retu{
+    font-size: 13px;
+}
+.amz-cart{
+    display: flex;
+    position: relative;
+    margin-left: 20px;
+    align-items: center;
+    margin-right: 20px;
+    box-sizing: border-box;
+    padding:5px;
+        border: 1px solid transparent;
+}
+.cart-img{
+    width: 55px;
+    height: auto;
+}
+.cart-count{
+    position: absolute;
+    top: 6px;
+    right: 55px;
+    color: red;
+    font-weight: bold;   
+}
+.cart{
+    padding-top: 12px;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;  
+}
+.cart:active{
+    text-decoration: none;
+}
+.r-o{
+    display: flex;
+    flex-direction: column;
+        border: 1px solid transparent;
+    padding: 7px;
+}
+.r-o:hover{
+    border-color:white;
+    padding: 7px;
+}
+.amz-cart:hover{
+    border-color:white;
+    cursor: pointer;
+    text-decoration: none;
+}
+.od-gap{
+    height: 100px;
+    visibility: hidden;
+}
+.od-body{
+    padding-left: 20px;
+}
+.my-orders{
+    font-weight: bold;
+    font-size: 26px;
+    margin-bottom: 25px;
+}
+.od-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f2f2;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 1px solid rgb(200,200,200);
+}
+.abt-ord{
+    border: 1px solid rgb(200,200,200);
+    border-radius: 10px;
+    margin-bottom: 44px;
+}
+.ord-heading{
+    font-weight: bold;
+}
+.od-placed{
+    line-height: 19px;
+}
+.ord-img{
+    height: 110px;
+    padding-right: 40px;
+}
+.od-pro-det{
+    padding: 45px 30px 8px;
+}
+.first-pro,.sec-pro{
+    display: flex;
+}
+.abt-pro-name{
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.od-qunt{
+    padding-top: 5px;
+    padding-bottom: 8px;
+}
+.buy-img{
+    height: 23px;
+    padding-right: 15px;
+}
+.od-buy{
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: #FFD814;
+    padding: 8px 14px;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-bottom: 9px;
+    box-shadow: 0 2px 5px rgba(213,217,0,0);
+}
+.od-buy:hover{
+    background-color: #e9c308ec;
+}
+.od-track{
+    border: 1px solid rgb(200,200,200);
+    padding: 9px 23px;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: white;
+    margin-bottom: 35px;
+}
+@media(max-width: 450px){
+    .od-track{
+        width: 100%;
+        padding: 9px 23px;
+    }
+}
+@media (min-width: 800px){
+    .od-track{
+        padding: 9px 80px;
+    }
+    .first-img-det{
+        display: flex;  
+    }
+    .details{
+    padding-right: 60px;
+}
+}
+.od-track:hover{
+    background-color: rgb(250, 250, 250);
+}

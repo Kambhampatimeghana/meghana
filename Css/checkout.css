@@ -1,0 +1,194 @@
+body{
+        font-family: Arial;
+    }
+
+.check-header{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    padding-top: 19px;
+    top: 0;
+    left:0;
+    padding-left: 30px;
+    padding-right: 30px;
+    right: 0;
+    background-color: white;
+    
+}
+.qunt{
+    margin-right: 3px;
+}
+.quant{
+    display: flex;
+    column-gap: 2px;
+}
+.quant-input{
+    width: 30px;
+}
+.sp-css{
+    color: rgb(45, 129, 181);
+    pointer-events: auto;
+}
+.sp-css:hover{
+    cursor: pointer;
+}
+.save-quant{
+     color: rgb(45, 129, 181);
+     margin-right: 3px;
+}
+.save-quant:hover{
+    cursor: pointer;
+}
+.check-first-header{
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.check-gap{
+    height: 140px;
+    visibility: hidden;
+}
+.check-middle-header{
+    font-weight: 520;
+    font-size: 20px;
+}
+.items-link{
+    text-decoration: none;
+}
+.check-review{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size:20px ;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.check-os{
+    border: 1px solid rgb(220, 217, 217);
+    padding: 20px;
+}
+.grid,.grid-tot-ord{
+    display: grid;
+    margin-bottom: 9px;
+    grid-template-columns: 1fr auto;
+    font-size: 15px;
+    justify-content: center;
+}
+.check-ord{
+    display: grid;
+    grid-template-columns: 400px 10px;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    
+}
+.grid-tot,.grid-tot-ord{
+    border-top: 1px solid rgb(220, 217, 217);
+    padding-top: 8px;
+}
+.total-tax{
+        padding-top: 8px;
+}
+.grid-tot-ord{
+    padding-top: 20px;
+}
+.ord{
+    color: maroon;
+    font-size: 20px;
+    font-weight: bold;
+}
+.po-butt{
+    margin-top: 10px;
+    padding: 12px;
+    border: none;
+    background-color: rgb(240, 214, 70);
+    border-radius:9px;
+}
+.po-butt:hover{
+    cursor: pointer;
+    background-color: rgb(236, 207, 46);
+}
+.po-butt:active{
+    background-color: rgb(240, 214, 70);
+}
+.check-date{
+    color: green;
+    font-size: 19px;
+    font-weight: bold;
+    padding-bottom: 25px;
+}
+.img{
+    height: 110px;
+    padding-right: 25px;
+}
+.check-pd{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 28px;
+}
+.pro-nm{
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.cost{
+    color: rgb(188, 10, 10);
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.sp{
+    color: rgb(45, 129, 181);
+    cursor: pointer;
+}
+.sp:hover{
+    transition: 0.5s;
+    color: rgb(185, 5, 5);
+}
+.d-opt{
+    font-weight: bold;
+}
+.rad-1{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.rad-but{
+    box-sizing: border-box;
+}
+.rad-1de{
+    padding-left: 8px;
+    line-height: 20px;
+}
+.day-date{
+    font-weight: bold;
+    color: green;
+}
+.ship-cost{
+    color: rgb(128, 126, 126);
+    font-size: 15px;
+}
+.check-o1{
+        border: 1px solid rgb(220, 217, 217);
+        margin-bottom: 12px;
+        padding-top: 23px;
+        padding-left: 20px;
+        padding-bottom: 35px;
+    
+}
+.check-body{
+    display: grid;
+    
+    justify-content: center;
+    gap: 20px;
+    grid-template-columns: 500px;
+    flex-wrap: wrap;
+}
+@media (max-width: 900px){
+    .check-body{
+        flex-direction: column;
+        align-items: center;
+    }
+}
